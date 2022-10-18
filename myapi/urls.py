@@ -20,5 +20,5 @@ from webapi import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('employe/', views.employeeList.as_view()),
+    path('', views.employeeList.as_view()),
 ]
