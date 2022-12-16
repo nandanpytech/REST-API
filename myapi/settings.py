@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-g-i=hbzvzz@f3h6#gch%ep2+2289i^q1rf+)ilw0(=nc#e@3og
 DEBUG = False
 
 # ALLOWED_HOSTS = ['restrajesh.herokuapp.com','127.0.0.1']
-ALLOWED_HOSTS = ['.vercel.app','.now.sh']
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -125,7 +125,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static')
 
 
 # Default primary key field type
